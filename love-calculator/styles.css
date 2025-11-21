@@ -1,0 +1,20 @@
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+nav a{
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0;
+}
+
+/*Estilos del ejercicio*/
+
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
