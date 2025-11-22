@@ -1,0 +1,110 @@
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+nav a{
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/*Estilos del ejercicio*/
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding-top: 20px; 
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2{
+    color: #333;
+}
+
+.task-form {
+    margin-bottom: 20px;
+}
+
+#task-input {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+#add-task-btn {
+    padding: 8px 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 3px;
+}
+
+.complete {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+.delete-btn {
+    background-color: #ff3636;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+/*---------------------*/
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    input, button {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    #result {
+        font-size: 20px;
+    }
+}
